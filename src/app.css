@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import '~bootstrap/dist/css/bootstrap.min.css';
+
+body {
+    font-family: 'Raleway';
+}
+
+.light-theme {
+    --primary-color:#fff;
+    --primary-color-bg:#fff;
+    --primary-text-header:rgba(0,0,0,.5);
+    --primary-text-header-active:rgba(0,0,0,.9);
+    --primary-text:#ddd;
+}
+.dark-theme {
+    --primary-color:#192d35;
+    --primary-color-bg:#f7f9fc;
+    --primary-text-header:rgba(255,255,255,.65);
+    --primary-text-header-active:rgba(255,255,255,1);
+    --primart-text:#2c3038;
+}
+
+.tg-font-s-125{
+    font-size:1.25rem !important;
+}
+
+.tg-padding-1{
+    padding: 1rem 1rem !important;
+}
+
+.tg-wid-100{
+    width: 100%;
+}
+
+.tg-hei-100{
+    height: 100vh ;
+}
